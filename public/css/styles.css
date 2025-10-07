@@ -11,3 +11,8 @@ nav {
     color: white;
     height: 50px; 
 }
+nav ul {
+  display: flex; 
+  height: 100%; 
+  list-style-type: none; 
+}
