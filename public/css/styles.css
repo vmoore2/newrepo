@@ -4,3 +4,10 @@
 *:after {
   box-sizing: border-box;
 }
+
+nav {
+    background-color: #3a3a3a;
+    font-size: 1em;
+    color: white;
+    height: 50px; 
+}
