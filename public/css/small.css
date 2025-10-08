@@ -1,11 +1,112 @@
-nav {
-    background-color: #3a3a3a;
+
+#top-header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px; 
+}
+.siteName a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+
+}
+#tools a{
+    text-decoration: none;
+    color:black; 
     font-size: 1em;
-    color: white;
-    height: 50px; 
+    font-family: sans-serif;
+
+}
+nav {
+    background-color: rgb(38, 38, 38);
+    padding: 5px 0 5px 0; 
+   
 }
 nav ul {
+    color: white; 
+    list-style-type: none;
   display: flex; 
-  height: 100%; 
-  list-style-type: none; 
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right:10px; 
+  
+}
+h1 {
+    font-size: 1.5em;
+}
+
+main {
+    padding: 10px; 
+}
+#topContainer {
+    position: relative; 
+}
+#deloreanDescriptionBackground {
+    background-color: rgba(255,255,255, 0.8);
+    position:absolute;
+    bottom:0%; 
+    left: 10px; 
+    width: 120px; 
+}
+#dmcDelorean {
+    font-weight: bold;
+
+}
+#deloreanDescription {
+    color:rgb(102, 179, 255); 
+    opacity: 1.0; 
+    padding-right: 1px;
+    margin: auto; 
+
+}
+#deloreanDescription p {
+    font-size: 1em;
+}
+#OwnButton {
+   width: 75%; 
+}
+
+#heroDelorean {
+    display: block;
+    margin:auto; 
+    width:80%
+}
+
+.secondContainer {
+    display:flex; 
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.secondContainer > div {
+    width: 100%; 
+}
+.secondContainer ul {
+    padding:10px; 
+}
+
+#upgradeContainer { 
+    display:grid; 
+    grid-template-columns: auto auto;
+    gap:30px; 
+}
+.imageDiv {
+    background-color: rgb(102, 179, 255);
+    width:100%;  
+}
+.imageDiv img {
+    width: 40%; 
+    display:block; 
+    margin: auto; 
+    padding: 10px; 
+}
+figure {
+    margin:0px; 
+}
+#reviews {
+    margin:20px; 
+}
+figcaption {
+    text-align: center;
 }

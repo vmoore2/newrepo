@@ -1,0 +1,43 @@
+@media only screen and (min-width: 650px){
+    
+    #deloreanDescriptionBackground {
+    position:absolute;
+    bottom: 65px; 
+    left: 30px; 
+    
+}
+.checkerBackground {
+    background-image:url(/images/site/checkerboard.jpg);
+    background-repeat:repeat;
+    background-position:center;
+}
+#blueBorder{
+    border: 4px solid rgb(102, 179, 255); 
+    padding: 5px; 
+    background-color: white;
+    width: 85%; 
+    margin:auto; 
+
+}
+h1 {
+    font-size: 2em;
+}
+.imageDiv img {
+    width: 30%; 
+    display:block; 
+    margin: auto; 
+    padding: 10px; 
+}
+#deloreanDescriptionBackground {
+    position:absolute;
+    bottom:15px; 
+    left: 10px; 
+    width: 180px; 
+}
+#deloreanDescription p {
+    font-size: 1.5em;
+}
+#reviews {
+    font-size: 1.3em;
+}
+}
